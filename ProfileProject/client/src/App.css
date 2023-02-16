@@ -1,0 +1,14 @@
+/* Background Content */
+*{
+  margin: 0;
+}
+
+
+.background {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+

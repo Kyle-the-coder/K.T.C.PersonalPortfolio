@@ -1,0 +1,90 @@
+/* Contact Me Section */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap');
+
+.contactMeSection{
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    height: 40vh;
+    display: flex;
+    border-top: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.contactMeIcons{
+    width: 7vw;
+    cursor: pointer;
+    padding: 8px;
+    transition: all .7s;
+    
+}
+.contactMeIcons:hover{
+    background-color: #eed5ae;
+    border-radius: 1rem;
+}
+
+.contactTitle{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Unbounded', cursive;
+}
+
+.contactContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width: 730px) {
+    .contactMeSection{
+        height: 20vh;
+    }
+}
+
+@media (max-width: 610px) {
+    .contactMeIcons{
+        width: 9vw;
+        
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .contactMeIcons{
+        width: 11vw;
+        
+    }
+
+}
+
+
+@media (max-width: 375px) {
+    .contactMeIcons{
+        width: 12vw;
+        
+    }
+    .cm{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 275px) {
+    .contactMeIcons{
+        width: 15vw;
+        
+    }
+    .cm{
+        font-size: 1rem;
+    }
+
+}
+
