@@ -16,7 +16,7 @@ const NavbarStyle = () => {
             <div className="navLinks">
                 <a href="#lpSection" className="navContent0 text-decoration-none">Home</a>
                 <a href="#aboutSection" className="navContent1 text-decoration-none">About Me</a>
-                <a href="#skillzSection" className="navContent1 text-decoration-none">Skills</a>
+                <a href="#skillzSection" className="navContent0 text-decoration-none">Skills</a>
                 <a href="#projectSect" className="navContent2 text-decoration-none">Projects</a>
                 <a href="#contactSection" className="navContent3 text-decoration-none">Contact Me</a>
             </div>

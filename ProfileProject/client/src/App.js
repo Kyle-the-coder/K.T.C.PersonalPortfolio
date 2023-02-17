@@ -7,6 +7,7 @@ import ContactMe from './views/ContactMe';
 import { useState } from 'react';
 import LandingPage from './views/LandingPage';
 import SkillsList from './views/SkillsList';
+import {Helmet} from "react-helmet";
 
 
 function App() {
@@ -22,6 +23,11 @@ function App() {
   }
   return (
     <div className='backgroundMain'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>K.T.C.</title>
+        <link rel="canonical" href="http://kylethecoder.com" />
+      </Helmet>
       <div className='background'>
 
         <NavbarStyle />
@@ -29,7 +35,7 @@ function App() {
         <LandingPage />
 
         <AboutMe />
-        <SkillsList changeView={changeView}/>
+        <SkillsList changeView={changeView} />
         <DisplayProjects totalView={totalView} />
         <ContactMe />
       </div>

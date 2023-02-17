@@ -27,7 +27,7 @@ const LandingPage = () => {
                         <TypeWriter />
                         <ColoredLine color="white" />
                     </div>
-                    <h5 className="lpTitleContainer"><span className="textContent lpTitleContainer">Full</span> Stack <br /><span className="textContent2 lpTitleContainer"> Freelance</span> Developer</h5>
+                    <h5 className="lpTitleContainer"><span className="textContent lpTitleContainer">Full</span> Stack <br /><span className="textContent2 lpTitleContainer"> Freelance</span> <span className="textContent">Developer</span></h5>
                     <h6 className="lpQuote">"I love creating <span className="textContent2">shapes</span> in <span className="textContent">motion</span>"</h6>
                     <div className="lpIconsContainer">
                         <p className="m-0">Quick Contact:</p>
@@ -43,7 +43,7 @@ const LandingPage = () => {
             <div className="rightContent">
 
                 <div className="funFactsTitle">
-                    <h6>Fun <span className="textContent">Facts:</span> </h6>
+                    <h6 className="funFactsT">Fun <span className="textContent">Facts:</span> </h6>
                 </div>
 
                 <div className="colorLineContainer">

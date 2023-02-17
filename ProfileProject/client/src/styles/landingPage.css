@@ -16,7 +16,7 @@
 }
 
 
-.landingPageContainer>img{
+.landingPageContainer>img {
     justify-content: center;
 }
 
@@ -41,14 +41,15 @@
 }
 
 
-.lpIconsContainer{
+.lpIconsContainer {
     display: flex;
     width: 80%;
     align-items: flex-end;
     cursor: pointer;
     justify-content: left;
 }
-.lpIcons{
+
+.lpIcons {
     width: 40px;
     height: auto;
 }
@@ -91,7 +92,7 @@
     font-family: 'Unbounded', cursive;
 }
 
-.colorLineContainer{
+.colorLineContainer {
     width: 40vw;
 }
 
@@ -106,223 +107,248 @@
     justify-content: top;
 }
 
-@media (max-width: 875px){
-    .typeBox{
+
+
+@media (min-width: 875px) {
+    .typeBox {
         font-size: 1.5rem;
     }
 
-    .lpTitleContainer{
+    .lpTitleContainer {
         font-size: 1rem;
     }
-    .lpQuote{
+
+    .lpQuote {
         font-size: .7rem;
     }
-    .lpIcons{
+
+    .lpIcons {
         width: 30px;
         height: auto;
     }
-    .lpIconsContainer{
+
+    .lpIconsContainer {
         font-size: .8rem;
     }
 
 }
 
 
-@media (max-width: 735px){
-    .typeBox{
+@media (min-width: 735px) {
+    .typeBox {
         font-size: 1.4rem;
     }
 
-    .lpTitleContainer{
+    .lpTitleContainer {
         font-size: .9rem;
     }
-    .lpQuote{
+
+    .lpQuote {
         font-size: .6rem;
     }
-    .lpIcons{
+
+    .lpIcons {
         width: 30px;
         height: auto;
     }
-    .lpIconsContainer{
+
+    .lpIconsContainer {
         font-size: .8rem;
     }
 
 }
-@media (max-width: 675px){
-    .typeBox{
+
+@media (max-width: 675px) {
+    .typeBox {
         font-size: 1.2rem;
     }
 
 }
 
-@media (max-width: 600px){
-    .landingPageContainer{
+@media (max-width: 600px) {
+    .landingPageContainer {
         flex-direction: column;
         background-image: url("../assets/backgroundSplit.png");
         background-position: right top 8vh;
     }
-    
-    .leftContent{
+
+    .leftContent {
         width: 100%;
         margin-left: 1vw;
         margin-bottom: 4vh;
     }
 
-    .landingPageText{
+    .landingPageText {
         width: 100%;
         height: auto;
         justify-content: space-evenly;
     }
 
-    .typeBox{
+    .typeBox {
         font-size: 1.8rem;
     }
 
-    .lpIcons{
+    .lpIcons {
         width: 30px;
         height: auto;
     }
-    .lpIconsContainer{
+
+    .lpIconsContainer {
         width: 50%;
         font-size: .8rem;
-    
+
     }
 
-    .lpTitleContainer{
+    .lpTitleContainer {
         font-size: 1.4rem;
     }
 
-    .lpQuote{
+    .lpQuote {
         font-size: .9rem;
     }
 
-    .rightContent{
+    .rightContent {
         width: auto;
         align-items: flex-start;
         margin-left: 1vw;
     }
-    
 
-    .funFactsTitle{
+
+    .funFactsTitle {
         width: 100%;
     }
-    .colorLineContainer{
+
+    .colorLineContainer {
         width: 100%;
     }
-    .funFactsContent{
+
+    .funFactsContent {
         width: 70%;
     }
 }
 
 @media (max-width: 500px) {
-    .landingPageContainer{
+    .landingPageContainer {
         flex-direction: column;
         background-image: url("../assets/backgroundSplit.png");
         background-position: right top 8vh;
     }
-    
-    .leftContent{
+
+    .leftContent {
         width: 100%;
     }
 
-    .landingPageText{
+    .landingPageText {
         width: 100%;
         height: auto;
         justify-content: space-evenly;
     }
 
-    .typeBox{
+    .typeBox {
         font-size: 1.3rem;
     }
 
-    .lpIcons{
+    .lpIcons {
         width: 30px;
         height: auto;
     }
-    .lpIconsContainer{
+
+    .lpIconsContainer {
         width: 50%;
         justify-content: space-around;
         font-size: .6rem;
     }
 
-    .lpTitleContainer{
+    .lpTitleContainer {
         font-size: .9rem;
     }
 
-    .lpQuote{
+    .lpQuote {
         font-size: .56rem;
     }
 
-    .rightContent{
+    .rightContent {
         width: auto;
         align-items: flex-start;
     }
-    
 
-    .funFactsTitle{
+
+    .funFactsTitle {
         width: 100%;
     }
-    .colorLineContainer{
+
+    .colorLineContainer {
         width: 100%;
     }
-    .funFactsContent{
+
+    .funFactsContent {
         width: 70%;
     }
 }
 
 
-@media (max-width: 400px) {
-    .landingPageContainer{
+
+@media (max-width: 415px) {
+    .landingPageContainer {
         flex-direction: column;
         background-image: url("../assets/backgroundSplit.png");
         background-position: right top 8vh;
     }
-    
-    .leftContent{
+
+    .leftContent {
         width: 100%;
     }
 
-    .landingPageText{
+    .landingPageText {
         width: 100%;
         height: auto;
         justify-content: space-evenly;
     }
 
-    .typeBox{
-        font-size: 1.3rem;
+    .typeBox {
+        font-size: 1.7rem;
     }
 
-    .lpIcons{
+    .lpIcons {
         width: 30px;
         height: auto;
     }
-    .lpIconsContainer{
+
+    .lpIconsContainer {
         width: 50%;
         justify-content: space-around;
         font-size: .6rem;
     }
 
-    .lpTitleContainer{
-        font-size: .9rem;
+    .lpTitleContainer {
+        font-size: 1.5rem;
     }
 
-    .lpQuote{
-        font-size: .56rem;
+    .lpQuote {
+        font-size: .8rem;
     }
 
-    .rightContent{
+    .rightContent {
         width: auto;
         align-items: flex-start;
     }
-    
 
-    .funFactsTitle{
+
+    .funFactsTitle {
+        width: 100%;
+
+    }
+
+    .funFactsT {
+        font-size: 1.4rem;
+    }
+
+    .colorLineContainer {
         width: 100%;
     }
-    .colorLineContainer{
-        width: 100%;
-    }
-    .funFactsContent{
-        width: 70%;
+
+    .funFactsContent {
+        width: 60%;
+        font-size: 1.2rem;
     }
 }
